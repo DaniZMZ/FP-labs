@@ -77,7 +77,7 @@ object Main {
     println("1. Тип напитка (Coffee или Tea)")
     println("2. Производитель")
     println("3. Сахар (1-100)")
-    println("4. Цена (10-5000)")
+    println("4. Цена (1-5000)")
     println("-" * 50)
     val userInput = consoleInput
     processInput(userInput, 0)
