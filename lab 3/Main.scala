@@ -42,7 +42,6 @@ def consoleInput: LazyList[String] = {
   loop
 }
 
-@annotation.tailrec
 def processInput(remaining: LazyList[String], count: Int): Unit = {
   if (remaining.isEmpty) {
     println("\nВвод завершен")
